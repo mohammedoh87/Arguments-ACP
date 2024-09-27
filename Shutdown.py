@@ -1,4 +1,4 @@
-def shutdown(choice):
+def shutdown():
     choice = input("o you want to shutdown your computer: ")
     if choice == "Yes".lower():
         print("Shutdown")
@@ -7,6 +7,6 @@ def shutdown(choice):
     else:
         print("INVALID CHOICE")
 
-shutdown('choice')
+shutdown()
     
     
